@@ -1,0 +1,10 @@
+CREATE TABLE Buddy (
+   ID INTEGER NOT NULL,
+   Country VARCHAR(255) NOT NULL,
+   Department VARCHAR(255) NOT NULL,
+   Email VARCHAR(255) NOT NULL,
+   Firstname VARCHAR(255) NOT NULL,
+   Lastname VARCHAR(255) NOT NULL,
+   PRIMARY KEY (ID)
+);
+
